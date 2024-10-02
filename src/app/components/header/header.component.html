@@ -1,0 +1,15 @@
+<div class="headerGOV">
+    <img src="../assets/img-govco.svg" alt="Logo GOV">
+</div>
+<div class="LogoADRES">
+    <img src="../assets/logo-adres.png" alt="Logo ADRES">
+</div>
+<div class="menu">
+    <nav>
+        <ul id="menu">
+            <li *ngFor="let item of menuItems">
+                <a [href]="item.link">{{ item.name }}</a>
+            </li>
+        </ul>
+    </nav>
+</div>
